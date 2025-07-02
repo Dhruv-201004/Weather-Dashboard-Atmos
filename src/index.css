@@ -3,13 +3,6 @@
 
 @custom-variant dark (&:is(.dark *));
 
-@layer base {
-  * {
-    margin: 72px; /* Custom margin */
-    padding: 72px; /* Custom padding */
-  }
-}
-
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
